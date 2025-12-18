@@ -1,0 +1,4 @@
+theme "dracula"
+default_layout "compact"
+session_serialization true
+show_startup_tips false
