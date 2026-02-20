@@ -1,4 +1,123 @@
 themes {
+    catppuccin_latte {
+        text_unselected {
+            base 76 79 105       // text
+            background 239 241 245  // base
+            emphasis_0 223 142 29   // yellow
+            emphasis_1 30 102 245   // blue
+            emphasis_2 64 160 43    // green
+            emphasis_3 234 118 203  // pink
+        }
+        text_selected {
+            base 239 241 245     // base
+            background 30 102 245   // blue
+            emphasis_0 223 142 29   // yellow
+            emphasis_1 239 241 245  // base
+            emphasis_2 200 235 220  // light green tint
+            emphasis_3 252 220 248  // light pink tint
+        }
+        ribbon_selected {
+            base 239 241 245     // base
+            background 64 160 43    // green
+            emphasis_0 210 15 57    // red
+            emphasis_1 223 142 29   // yellow
+            emphasis_2 234 118 203  // pink
+            emphasis_3 108 111 133  // subtext0
+        }
+        ribbon_unselected {
+            base 76 79 105       // text
+            background 188 192 204  // surface1
+            emphasis_0 210 15 57    // red
+            emphasis_1 30 102 245   // blue
+            emphasis_2 64 160 43    // green
+            emphasis_3 234 118 203  // pink
+        }
+        table_title {
+            base 64 160 43       // green
+            background 239 241 245  // base
+            emphasis_0 223 142 29   // yellow
+            emphasis_1 30 102 245   // blue
+            emphasis_2 64 160 43    // green
+            emphasis_3 234 118 203  // pink
+        }
+        table_cell_selected {
+            base 239 241 245     // base
+            background 30 102 245   // blue
+            emphasis_0 223 142 29   // yellow
+            emphasis_1 239 241 245  // base
+            emphasis_2 200 235 220  // light green tint
+            emphasis_3 252 220 248  // light pink tint
+        }
+        table_cell_unselected {
+            base 76 79 105       // text
+            background 239 241 245  // base
+            emphasis_0 223 142 29   // yellow
+            emphasis_1 30 102 245   // blue
+            emphasis_2 64 160 43    // green
+            emphasis_3 234 118 203  // pink
+        }
+        list_selected {
+            base 239 241 245     // base
+            background 30 102 245   // blue
+            emphasis_0 223 142 29   // yellow
+            emphasis_1 239 241 245  // base
+            emphasis_2 200 235 220  // light green tint
+            emphasis_3 252 220 248  // light pink tint
+        }
+        list_unselected {
+            base 76 79 105       // text
+            background 239 241 245  // base
+            emphasis_0 223 142 29   // yellow
+            emphasis_1 30 102 245   // blue
+            emphasis_2 64 160 43    // green
+            emphasis_3 234 118 203  // pink
+        }
+        frame_selected {
+            base 30 102 245      // blue
+            background 239 241 245  // base
+            emphasis_0 223 142 29   // yellow
+            emphasis_1 30 102 245   // blue
+            emphasis_2 234 118 203  // pink
+            emphasis_3 239 241 245  // base
+        }
+        frame_highlight {
+            base 223 142 29      // yellow
+            background 239 241 245  // base
+            emphasis_0 234 118 203  // pink
+            emphasis_1 223 142 29   // yellow
+            emphasis_2 223 142 29   // yellow
+            emphasis_3 223 142 29   // yellow
+        }
+        exit_code_success {
+            base 64 160 43       // green
+            background 239 241 245  // base
+            emphasis_0 30 102 245   // blue
+            emphasis_1 239 241 245  // base
+            emphasis_2 234 118 203  // pink
+            emphasis_3 108 111 133  // subtext0
+        }
+        exit_code_error {
+            base 210 15 57       // red
+            background 239 241 245  // base
+            emphasis_0 223 142 29   // yellow
+            emphasis_1 239 241 245  // base
+            emphasis_2 172 176 190  // surface2
+            emphasis_3 172 176 190  // surface2
+        }
+        multiplayer_user_colors {
+            player_1 234 118 203  // pink
+            player_2 108 111 133  // subtext0
+            player_3 23 146 153   // teal
+            player_4 223 142 29   // yellow
+            player_5 30 102 245   // blue
+            player_6 80 140 240
+            player_7 210 15 57    // red
+            player_8 172 176 190  // surface2
+            player_9 188 192 204  // surface1
+            player_10 76 79 105   // text
+        }
+    }
+
     dracula_highlight {
         text_unselected {
             base 255 255 255
@@ -236,7 +355,7 @@ themes {
         }
     }
 }
-theme "bright_white"
+theme "catppuccin_latte"
 default_layout "compact"
 session_serialization true
 show_startup_tips false
